@@ -1,5 +1,5 @@
 ﻿using Calculadora;
-
+// Alteração feita por outro desenvolvedor diretamente no GitHub.
 var calculadora = new CalculadoraMatematica();
 bool executando = true;
 
