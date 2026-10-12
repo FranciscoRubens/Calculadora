@@ -1,5 +1,8 @@
-﻿using Calculadora;
+```csharp
+using Calculadora;
+
 // Alteração feita por outro desenvolvedor diretamente no GitHub.
+
 var calculadora = new CalculadoraMatematica();
 bool executando = true;
 
@@ -11,6 +14,8 @@ while (executando)
     Console.WriteLine("2 - Subtrair");
     Console.WriteLine("3 - Multiplicar");
     Console.WriteLine("4 - Dividir");
+    Console.WriteLine("5 - Potência");
+    Console.WriteLine("6 - Potência com expoente dobrado");
     Console.WriteLine("0 - Sair");
     Console.Write("Escolha uma opção: ");
 
@@ -22,7 +27,7 @@ while (executando)
         continue;
     }
 
-    if (opcao is not ("1" or "2" or "3" or "4"))
+    if (opcao is not ("1" or "2" or "3" or "4" or "5" or "6"))
     {
         Console.WriteLine("Opção inválida!");
         continue;
@@ -52,6 +57,8 @@ while (executando)
             "2" => calculadora.Subtrair(a, b),
             "3" => calculadora.Multiplicar(a, b),
             "4" => calculadora.Dividir(a, b),
+            "5" => calculadora.Potencia(a, b),
+            "6" => calculadora.PotenciaComExpoenteDobrado(a, b),
             _ => 0
         };
 
@@ -64,3 +71,4 @@ while (executando)
 }
 
 Console.WriteLine("Sistema encerrado!");
+```
