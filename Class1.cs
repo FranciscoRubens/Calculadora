@@ -1,5 +1,6 @@
-﻿
+```csharp
 namespace Calculadora;
+
 // Classe com as operações matemáticas.
 public class CalculadoraMatematica
 {
@@ -28,4 +29,18 @@ public class CalculadoraMatematica
 
         return a / b;
     }
+
+    // Nova funcionalidade adicionada pelo outro desenvolvedor.
+    public double Potencia(double baseNumero, double expoente)
+    {
+        return Math.Pow(baseNumero, expoente);
+    }
+
+    // Nova funcionalidade desenvolvida na sua branch.
+    public double PotenciaComExpoenteDobrado(
+        double baseNumero, double expoente)
+    {
+        return Potencia(baseNumero, expoente * 2);
+    }
 }
+```
