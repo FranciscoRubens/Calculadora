@@ -5,6 +5,7 @@ bool executando = true;
 
 while (executando)
 {
+    // Menu principal da aplicação.
     Console.WriteLine("\n=== CALCULADORA ===");
     Console.WriteLine("1 - Somar");
     Console.WriteLine("2 - Subtrair");
