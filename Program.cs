@@ -1,4 +1,4 @@
-```csharp
+
 using Calculadora;
 
 // Alteração feita por outro desenvolvedor diretamente no GitHub.
@@ -71,4 +71,4 @@ while (executando)
 }
 
 Console.WriteLine("Sistema encerrado!");
-```
+
