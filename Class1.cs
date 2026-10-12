@@ -1,4 +1,4 @@
-```csharp
+
 namespace Calculadora;
 
 // Classe com as operações matemáticas.
@@ -43,4 +43,4 @@ public class CalculadoraMatematica
         return Potencia(baseNumero, expoente * 2);
     }
 }
-```
+
