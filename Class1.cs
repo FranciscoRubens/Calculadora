@@ -1,6 +1,6 @@
 ﻿
 namespace Calculadora;
-
+// Classe com as operações matemáticas.
 public class CalculadoraMatematica
 {
     public double Somar(double a, double b)
