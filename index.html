@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+
+    <input type="number" id="numero1" placeholder="Primeiro número">
+    <input type="number" id="numero2" placeholder="Segundo número">
+
+    <button onclick="somar()">Somar</button>
+
+    <p id="resultado">Resultado: </p>
+
+    <script>
+        function somar() {
+            const a = Number(document.getElementById("numero1").value);
+            const b = Number(document.getElementById("numero2").value);
+
+            document.getElementById("resultado").textContent =
+                "Resultado: " + (a + b);
+        }
+    </script>
+</body>
+</html>
